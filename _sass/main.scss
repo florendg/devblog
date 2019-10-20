@@ -2,12 +2,65 @@
   color: black;
 }
 
-header {
-  background-color: blue;
+body {
+  font-family: 'Oxygen';
+  background-image: linear-gradient(to top, white,darkgray);
+  background-repeat: repeat-x;
+  position: relative;
+  min-height: 100%;
+  padding-top: 20px;
+  padding-bottom: 40px;
 }
 
-header a {
-  color: white;
+a {
+  color: black;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 1.3em;
+}
+
+h2 {
+  font-size: 1.2em;
+}
+
+h3 {
+  font-family: 1.1em;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: darkcyan;
+}
+
+header, footer {
+  right: 0;
+  left: 0;
+  position: fixed;
+  background-color: #cccccc;
+}
+
+header {
+  top: 0;
+  clear: both;
+  border-bottom-color: black;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;;
+}
+
+footer {
+  font-size: 0.7em;
+  color: darkgray;
+  clear: both;
+  height: 30px;
+  bottom: 0;
+  border-top-color: black;
+  border-top-width: 2px;
+  border-top-style: solid;
 }
 
 img {

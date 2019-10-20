@@ -1,5 +1,5 @@
 ---
-short_name: floren
+short_name: Floren
 name: Floren de Gier
 position: Lead Developer
 ---
